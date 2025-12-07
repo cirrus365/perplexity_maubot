@@ -1,0 +1,32 @@
+openrouter_api_key: your_api_key
+
+# OpenRouter API endpoint
+api_endpoint: https://openrouter.ai/api/v1/chat/completions
+
+# Model to use for search
+model: perplexity/sonar
+
+# Maximum number of tokens to generate
+max_tokens: 2000
+
+# Sampling temperature (0.0 to 2.0)
+temperature: 0.7
+
+# Allowed users (empty list means everyone allowed)
+allowed_users: []
+
+# Bot name for mentions
+name: fxivity
+
+# Maximum number of context messages
+max_context_messages: 20
+
+# Reply in threads
+reply_in_thread: false
+
+# System prompt
+system_prompt: |
+    You are a helpful AI assistant powered by Perplexity's Sonar model. 
+    You provide accurate, up-to-date information and cite your sources when possible.
+    The current datetime is {timestamp}.
+    Be concise but thorough in your responses.

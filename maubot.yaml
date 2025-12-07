@@ -1,0 +1,11 @@
+maubot: 0.1.0
+id: org.example.perplexity
+version: 0.1.0
+modules:
+  - perplexity_bot
+main_class: PerplexityBot
+config: true
+extra_files:
+  - README.md
+  - base-config.yaml
+database: false
